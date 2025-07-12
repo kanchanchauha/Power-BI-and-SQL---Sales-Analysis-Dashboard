@@ -1,9 +1,13 @@
 # ☕ Coffee Shop Sales Analysis Dashboard
 
-A complete data analysis project that provides valuable insights into a coffee shop's sales performance using **SQL** and **Power BI**. This dashboard helps identify sales trends, top-performing products, and revenue patterns—essential for data-driven business decisions.
+A complete end-to-end sales analysis project using **SQL** and **Power BI** to extract, transform, and visualize coffee shop data.  
+This dashboard uncovers sales trends, high-performing products, and revenue patterns—supporting smarter business decisions.
 
 ---
 
+![Coffee Shop Dashboard](https://github.com/user-attachments/assets/0533845b-c3ed-4af0-9742-dbdec39031f2)
+
+---
 ## 🔍 Project Overview
 
 This project is a **complete end-to-end Coffee Shop Sales Analysis** using a combination of **SQL** and **Power BI**.
@@ -16,22 +20,35 @@ This project is a **complete end-to-end Coffee Shop Sales Analysis** using a com
 The dashboard evolves from **basic reporting to advanced analytics**, leveraging various techniques such as:
 
 ### 🔍 SQL Responsibilities:
-- Creating the database and importing raw CSV data  
-- Cleaning and standardizing data (handling nulls, duplicates, and datatypes)  
-- Applying business logic through queries using:
-  - `GROUP BY`, `WHERE`, `ORDER BY`
-  - Conditional statements (`CASE WHEN`)
-  - **Window Functions** for ranking and cumulative totals  
-  - **Joins** to integrate multiple tables (orders, products, customers)
+
+- Created the database schema and imported raw CSV datasets into structured tables  
+- Cleaned and standardized data by:
+  - Removing nulls and duplicates  
+  - Renaming columns and changing data types  
+- Applied business logic and data transformation using:
+  - `GROUP BY`, `WHERE`, `ORDER BY` for aggregation and filtering  
+  - Conditional logic using `CASE WHEN` for classification and flagging  
+  - **Joins** to combine multiple datasets (sales, products, categories)  
+  - **Window functions** such as:
+    - `LAG()` and `OVER(PARTITION BY...)` to calculate **Month-on-Month** revenue changes  
+   
+
 
 ### 📈 Power BI Responsibilities:
-- Designing a structured data model with relationships  
-- Creating **DAX** measures and KPIs for key metrics  
-- Building a clean, user-friendly report with:
-  - Interactive slicers and filters  
-  - Drill-through pages  
-  - Time intelligence (MTD, QTD, YTD comparisons)  
-  - Dynamic tooltips and cards
+
+- Designed a structured **data model** with star schema and relationships  
+- Created **custom DAX measures**, KPIs, and calculated columns for deep analysis  
+- Implemented advanced **time intelligence**:
+  - Month-on-Month (MoM), daily, and hourly trends  
+- Built a completely **interactive dashboard** using:
+  - Slicers, action filters, drill-through pages, and tooltips  
+- Applied **conditional formatting** to highlight performance metrics dynamically  
+- Customized visuals and tables with:
+  - Advanced DAX
+  - Dynamic titles and chart interactions  
+  - Custom table formatting and matrix views  
+- Integrated **data mining logic** for pattern discovery and segmentation  
+- Delivered a **fully dynamic experience** for business users with actionable insights
 
 This project showcases how raw transactional data can be transformed into powerful, decision-supporting visuals—ideal for management and business stakeholders in retail environments.
 
@@ -40,31 +57,44 @@ This project showcases how raw transactional data can be transformed into powerf
 
 ## 📊 Key Features of the Dashboard
 
-- 🔸 **Total Revenue** and **Order Count**
-- 🔸 **Top 5 Selling Items**
-- 🔸 **Monthly Sales Trend**
-- 🔸 **Sales by Product Category**
-- 🔸 **Interactive Filters** (Date, Category, Product Name)
-- 🔸 **Dynamic KPIs and Charts**
+- 💰 Total Sales, Orders, and Quantity KPIs
+- 📅 MoM, Daily & Hourly Sales Trend (Time Intelligence)
+- 🗂️ Category-wise & Product-level Sales Insights
+- 📆 Weekday vs Weekend Sales Comparison
+- 🎯 Dynamic KPIs, Tooltips & Conditional Formatting
+- 📈 Daily Sales with Moving Average Line
+- 🧠 Custom DAX for Calculations & Advanced Charts
+- 🧩 Slicers, Drill-throughs, and Interactive Filters
+- 🗃️ Customized Tables & Matrix Views
+- 🚀 Fully Dynamic, Business-Ready Dashboard
+  
+---
+
+## 📚 Learnings & Highlights
+
+- 🧩 Built a complete end-to-end BI solution combining SQL + Power BI  
+- 🧹 Performed complex SQL queries for data cleaning, joins, window functions, and business logic  
+- 📊 Created advanced DAX calculations for KPIs like MoM, YoY, MTD, dynamic averages, and rank logic  
+- 🗂️ Designed efficient data models using star schema and relationships in Power BI  
+- 📈 Implemented interactive features: slicers, drill-through, tooltips, bookmarks, and action filters  
+- 📅 Applied time intelligence to analyze data across months, days, and even hours  
+- 🎨 Used conditional formatting, card visuals, custom tables, and matrix views for professional reporting  
+- ⚙️ Created customized charts with dynamic titles and filters using advanced DAX  
+- 🧠 Learned storytelling techniques to present actionable insights for stakeholders  
+- 💡 Followed best practices in Power BI UX/UI: layout, color schemes, consistency, and user navigation  
 
 ---
 
-## 🖼️ Screenshots
+## 📬 Let's Connect
 
-> *(Add images here once available)*  
-> Upload your `.png` or `.jpg` files in the repo and reference like this:  
-> `![Dashboard Preview](images/dashboard-overview.png)`
+If you found this project interesting or have any feedback, feel free to connect with me:
 
+🔗 **LinkedIn**: [Kanchan Chouhan](https://www.linkedin.com/in/kanchan-chouhan-10704a25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+📧 **Email**: *kanchanchauhanmc@gmail.com*   
+🌐 **Portfolio/GitHub**: [github.com/kanchanchauha](https://github.com/kanchanchauha)
 ---
 
-## 🧠 Learnings & Highlights
+> 💡 *“Great dashboards don’t just show data — they tell stories.”*
 
-- SQL queries to perform joins, aggregate functions, and subqueries  
-- DAX calculations for KPIs (e.g., Total Sales, Previous Month Sales, YoY Change)  
-- Dashboard storytelling with slicers, cards, bar charts, and line graphs  
-- Best practices in Power BI design and color aesthetics
-
----
-
-## 📁 Folder Structure
+Thanks for visiting! 🌟
 
