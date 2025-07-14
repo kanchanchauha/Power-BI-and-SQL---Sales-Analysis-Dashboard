@@ -1,4 +1,4 @@
-# ☕ Coffee Shop Sales Analysis Dashboard
+# ☕ Sales Analysis Dashboard
 
 A complete end-to-end sales analysis project using **SQL** and **Power BI** to extract, transform, and visualize coffee shop data.  
 This dashboard uncovers sales trends, high-performing products, and revenue patterns—supporting smarter business decisions.
